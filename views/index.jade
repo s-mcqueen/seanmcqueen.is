@@ -1,5 +1,21 @@
 extends layout
 
 block content
-  h1= title
-  p #{title}
+  div#social
+    a(href="mailto:sean@mcqueen.net")
+      h1#title sean@mcqueen.net
+    div.sm
+      a(href="https://twitter.com/snmcqueen")
+        img(src='/images/tw.png')
+    div.sm
+      a(href="http://www.quora.com/Sean-McQueen")
+        img(src='/images/qr.png')
+    div.sm
+      a(href="http://www.linkedin.com/in/snmcqueen")
+        img(src='/images/in.png')
+    div.sm
+      a(href="https://github.com/s-mcqueen")
+        img(src='/images/gh.png')  
+    div.sm
+      a(href="https://www.facebook.com/sean.mcqueen")
+        img(src='/images/fb.png')

@@ -1,7 +1,5 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-a {
-  color: #00b7ff;
-}
+body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif;background-color:#2c3e50}
+a{color:#00b7ff;text-decoration:none}
+#social{margin:auto;width:690px}
+#title{color:#ecf0f1;margin-bottom:25px;font-size:70px}
+.sm{display:inline-block;margin:5px}
